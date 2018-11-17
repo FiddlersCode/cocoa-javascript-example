@@ -1,0 +1,26 @@
+{
+  "name": "testcocoajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/Calculator.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cocoajs": "^1.0.0",
+    "nyc": "^13.1.0",
+    "pre-commit": "^1.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Paula Muldoon",
+  "license": "ISC"
+}
