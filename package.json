@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "chai": "^4.2.0",
-    "cocoajs": "^1.0.0",
+    "cocoajs": "^2.0.2",
     "nyc": "^13.1.0",
     "pre-commit": "^1.2.2"
   },
@@ -19,7 +19,7 @@
     "mocha": "^5.2.0"
   },
   "scripts": {
-    "test": "test/*"
+    "test": "npx mocha --recursive test/"
   },
   "author": "Paula Muldoon",
   "license": "ISC"
