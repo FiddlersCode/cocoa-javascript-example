@@ -1,11 +1,12 @@
 const CocoaJS = require('cocoajs');
+const Calculator = require('../src/Calculator');
 
 describe('test eq method', () => {
     describe('addition method', () => {
         const setup = {
-            codeFile: '../../../src/Calculator',
-            methodName: 'add',
             it: 'should add 2 numbers',
+            codeFile: Calculator,
+            methodName: 'add',
         };
 
         const scenarios = {
